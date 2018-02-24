@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @EnableAutoConfiguration
 public class SpringBootApp 
 {
-	@RequestMapping("/")
+	@RequestMapping("/hello")
     @ResponseBody
     String home() {
         return "Hello World!";
